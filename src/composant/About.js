@@ -40,7 +40,7 @@ function About() {
       </div>
       <div className="content-container d-flex justify-content-center align-items-flex-start col-11 flex-wrap">
         {/* A propos */}
-        <div className="Description d-flex flex-column justify-content-center text-white fs-5 p-2 mx-auto my-2 flex-grow-1 border border-2 border-black rounded-3">
+        <div className="Description d-flex flex-column justify-content-center text-white fs-5 p-2 mx-auto my-0 flex-grow-1 border border-2 border-black rounded-3">
           <h2>À propos de moi</h2>
           <table>
             <thead>
@@ -94,7 +94,7 @@ function About() {
           </table>
         </div>
         {/* Photo */}
-        <div className="photo d-flex flex-column justify-content-center text-white  mx-3 flex-grow-1 border border-2 border-black rounded-circle  " >
+        <div className="photo d-flex flex-column justify-content-center text-white  mx-2 flex-grow-1 border border-2 border-black rounded-circle  " >
           <img src={`${process.env.PUBLIC_URL}/image/photojb.jpg`} className="img-fluid w-100 h-100" alt="image de Jean-Baptiste" />
         </div>
 
