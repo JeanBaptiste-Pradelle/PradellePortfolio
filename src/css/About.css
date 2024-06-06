@@ -36,8 +36,8 @@
 
 .photo {
   overflow: hidden;
-  width: 15%;
-  height: 55%;
+  width: 10%;
+  height: 60%;
   ;
 }
 
@@ -65,5 +65,6 @@
 
   .photo{
     width: 40%;
-  height: 75%; }
+  height: 75%;
+margin-left: 30%; }
 }

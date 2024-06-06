@@ -40,7 +40,7 @@ function About() {
       </div>
       <div className="content-container d-flex justify-content-center align-items-flex-start col-11 flex-wrap">
         {/* A propos */}
-        <div className="Description d-flex flex-column justify-content-center text-white fs-5 p-2 mx-auto my-0 flex-grow-1 border border-2 border-black rounded-3">
+        <div className="Description d-flex flex-column justify-content-center text-white fs-5 p-2 mx-auto mb-3 flex-grow-0 border border-2 border-black rounded-3">
           <h2>À propos de moi</h2>
           <table>
             <thead>
@@ -94,18 +94,18 @@ function About() {
           </table>
         </div>
         {/* Photo */}
-        <div className="photo d-flex flex-column justify-content-center text-white  mx-2 flex-grow-1 border border-2 border-black rounded-circle  " >
+        <div className="photo d-flex flex-column justify-content-center align-item-center text-white   flex-grow-1 border border-2 border-black rounded-circle  " >
           <img src={`${process.env.PUBLIC_URL}/image/photojb.jpg`} className="img-fluid w-100 h-100" alt="image de Jean-Baptiste" />
         </div>
 
         {/* Liens réseaux */}
-        <div className="reseaux d-flex flex-column justify-content-center text-white p-2 m-2 flex-grow-1 border border-2 border-black rounded-pill">
+        <div className="reseaux d-flex flex-column justify-content-evenly text-white fs-3 p-0 m-2 flex-grow-1 border border-2 border-black rounded-pill">
           {/* target= "_blank" pour ouvrir le lien dans un nouvel onglet */}
           <a
             href="https://www.linkedin.com/in/jean-baptiste-pradelle-13b5b7275/"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-reset text-decoration-none"
+            className="text-reset text-decoration-none fs-1"
           >
             Linkedin
           </a>
@@ -113,7 +113,7 @@ function About() {
             href="https://github.com/JeanBaptiste-Pradelle"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-reset text-decoration-none"
+            className="text-reset text-decoration-none fs-1"
           >
             Github
           </a>
@@ -121,7 +121,7 @@ function About() {
             href="https://github.com/JeanBaptiste-Pradelle/CV/blob/main/CV_Pradelle.docx"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-reset text-decoration-none"
+            className="text-reset text-decoration-none fs-1"
           >
             CV
           </a>
