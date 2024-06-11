@@ -36,12 +36,12 @@
 
 .photo {
   overflow: hidden;
-  width: 10%;
-  height: 90%;
+  width: 20%;
+  height: 70%;
   ;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1080px) {
   .sabout {
     flex-direction: column;
     overflow: auto; 
@@ -91,3 +91,11 @@ margin-left: 35%; }
   margin-left: 35%; }
 }
 }
+
+@media (min-width: 760px) and (max-height:1025px){
+  .photo{
+    width: 30%;
+  height: 60%;
+  margin-left: 35%; }
+  }
+  
