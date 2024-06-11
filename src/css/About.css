@@ -84,11 +84,10 @@ margin-left: 35%; }
   height: 15%;
 margin-left: 35%; }
 
-@media (max-width: 376px) and (max-height:761px) and (-webkit-min-device-pixel-ratio: 0){
+@media (max-width: 376px) and (max-height:761px) and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm){
   .photo{
     width: 35%;
   height: 20%;
   margin-left: 35%; }
 }
 }
-
