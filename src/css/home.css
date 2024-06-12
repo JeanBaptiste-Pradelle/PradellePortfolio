@@ -19,6 +19,9 @@
 .nom{
   font-size: 95px;
   }
+ .devweb{
+  font-size: 60px;
+ } 
 
  .photohomme{
   max-width: 100%;
@@ -33,7 +36,9 @@
   .nom{
     font-size: 28px;
     }
-
+ .devweb{
+  font-size: 20px;
+ }
   .header{
     flex-direction: column;
     overflow: auto;

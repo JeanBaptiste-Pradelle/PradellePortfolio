@@ -18,7 +18,7 @@ function Home() {
       <div className="header d-flex justify-content-between  mt-5 ">
         <div className="name-title d-flex flex-column mx-5 mt-5 ">
           <span className="nom fw-semibold">PRADELLE Jean-Baptiste</span>
-          <span className="fs-1 fw-bold mt-2">DEVELOPPEUR WEB</span>
+          <span className=" devweb  fw-bold mt-2">DEVELOPPEUR WEB</span>
         </div>
         <img
           src={`${process.env.PUBLIC_URL}/image/homme.jpg`}

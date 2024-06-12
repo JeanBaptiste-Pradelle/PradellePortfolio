@@ -29,7 +29,7 @@ function Realisation() {
           <span className="fs-5 col-7 mx-auto p-2 d-flex flex-column">
             <span className="fw-bold fs-1 mx-auto ">Myuka:</span>
             <br />
-            <span className="fs-2">
+            <span className="fs-2 mb-2 pb-2">
               {" "}
               Réalisation d'un site web type yuka en utilisant l'API libre
               d'openfactfood
