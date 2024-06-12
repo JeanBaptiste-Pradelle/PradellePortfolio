@@ -26,7 +26,7 @@ function Realisation() {
         style={{ overflowY: "auto", maxHeight: "80vh" }}
       >
         <div className="projet1 d-flex col-10 border border-4 border-black rounded-4 py-auto px-auto mx-auto my-2">
-          <span className="fs-5 col-7 mx-auto p-2 d-flex flex-column">
+          <span className="fs-5 col-6 mx-auto p-2 d-flex flex-column">
             <span className="fw-bold fs-1 mx-auto ">Myuka:</span>
             <br />
             <span className="fs-2 mb-2 pb-2">
@@ -52,8 +52,7 @@ function Realisation() {
 
           <img
             src={`${process.env.PUBLIC_URL}/image/myuka.jpg`}
-            className=" myuka img-fluid w-100
-           h-100 rounded opacity-75 me-1 mt-1
+            className=" myuka img-fluid col-6 rounded opacity-75 me-1 mt-1
            "
             alt="Site myuka"
           />
