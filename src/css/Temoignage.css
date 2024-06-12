@@ -14,13 +14,13 @@
 }
 
 .photohomme2{
-  width: 320px;
+  width: 400px;
   max-width: 100%;
 }
 
 .temoinTitre
 {
-  font-size: 80px;
+  font-size: 90px;
 }
 
 @media (max-width: 576px) {

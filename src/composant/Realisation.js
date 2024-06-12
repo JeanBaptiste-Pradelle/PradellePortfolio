@@ -36,10 +36,10 @@ function Realisation() {
             </span>
             <br />{" "}
             <span className="fs-2">
-              Technologie utilisé: React/Bootstrap /HTML
+              Technologie utilisé: React/Bootstrap /HTML5/CSS
             </span>
-            5/CSS
-            <span className="mt-5 mx-auto fs-3">
+            
+            <span className="mt-5 mx-auto fs-2">
               <a
                 href="https://jeanbaptiste-pradelle.github.io/myuka/"
                 target="_blank"
