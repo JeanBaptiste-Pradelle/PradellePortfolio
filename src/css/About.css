@@ -36,9 +36,7 @@
 
 .photo {
   overflow: hidden;
-    height: 90%;
-  ;
-}
+  }
 
 @media (max-width: 576px) {
   .sabout {
