@@ -52,7 +52,7 @@ function Realisation() {
 
           <img
             src={`${process.env.PUBLIC_URL}/image/myuka.jpg`}
-            className=" myuka img-fluid col-6 rounded opacity-75 me-1 mt-1
+            className=" myuka img-fluid col-6 rounded opacity-75 mx-auto
            "
             alt="Site myuka"
           />
