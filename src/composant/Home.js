@@ -26,8 +26,8 @@ function Home() {
           alt="homme devant ordinateur"
         />
       </div>
-      <div className="presentation-container d-flex flex-column justify-content-center align-items-center mt-5 pt-5">
-        <span className="presentation col-10 d-flex justify-content-center fs-3">
+      <div className="presentation-container d-flex flex-column justify-content-center align-items-center mt-3 pt-3">
+        <span className="presentation col-10 d-flex justify-content-center fs-4">
           Enchanté! Mon nom est Jean-Baptiste, je suis un développeur full-stack
           basé à Clermont-Ferrand. Passionné par le développement web depuis
           toujours je suis à votre disposition pour réaliser tous vos projets.
