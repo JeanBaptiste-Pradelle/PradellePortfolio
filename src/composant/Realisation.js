@@ -27,7 +27,7 @@ function Realisation() {
       >
         <div className="projet1 d-flex col-10 border border-4 border-black rounded-4 py-auto px-auto mx-auto my-2">
           <span className="fs-5 col-7 mx-auto p-2 d-flex flex-column">
-            <span className="fw-bold ">Myuka:</span>
+            <span className="fw-bold fs-1 mx-auto ">Myuka:</span>
             <br />
             <span className="fs-2">
               {" "}
