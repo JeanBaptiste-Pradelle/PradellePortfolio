@@ -31,11 +31,7 @@ main {
   z-index: 3;
 }
 
-@media (min-width: 576px) {
-  .navbar {
-    display: none; /* Hide the navbar on screens larger than 576px */
-  }
-}
+
 
 @media (max-width: 575.98px) {
   .navbar {

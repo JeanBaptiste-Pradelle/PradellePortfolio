@@ -19,7 +19,7 @@ function App() {
 
   useLayoutEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 576) {
+      if (window.innerWidth > 992) {
         let ctx = gsap.context(() => {
           let panels = gsap.utils.toArray(".panel");
 
@@ -100,7 +100,7 @@ function App() {
         <main style={{ overflow: "hidden" }}>
           <section
             ref={slider}
-            className="d-flex w-100 flex-column flex-md-row"
+            className=" d-lg-flexw-100 "
           >
             <div
               id="home"

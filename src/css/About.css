@@ -17,11 +17,11 @@
   height: 70vh;
 }
 
-.Description, .photo, .reseaux {
+.Description, .reseaux {
   background: rgba(71, 52, 21, 70%);
 }
 
-.photo, .reseaux {
+.reseaux {
   display: flex;
   flex-direction: column;
   align-items: center;
