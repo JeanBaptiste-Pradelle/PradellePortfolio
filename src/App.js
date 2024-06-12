@@ -100,7 +100,7 @@ function App() {
         <main style={{ overflow: "hidden" }}>
           <section
             ref={slider}
-            className=" d-lg-flexw-100 "
+            className=" d-lg-flex w-100 "
           >
             <div
               id="home"
