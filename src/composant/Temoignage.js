@@ -12,7 +12,7 @@ function Temoignage() {
       id="temoin"
       className="temoinSection w-100 h-100 d-flex flex-column align-items-center justify-content-center position-relative"
     >
-      <div className="header d-flex w-100 align-items-center justify-content-between position-absolute top-0 start-25 mb-5 mt-2 pb-3 ms-4">
+      <div className="header d-flex w-100 align-items-center justify-content-evenly position-absolute top-0 start-25 mb-5 mt-2 pb-3 ms-4">
         <img
           src={`${process.env.PUBLIC_URL}/image/homme2.jpg`}
           className="photohomme2 img-fluid rounded-4 opacity-75 ms-3"
@@ -21,7 +21,7 @@ function Temoignage() {
         <h1 className="temoinTitre my-2 p-2 display-5 text-center text-black">
           Temoignages
         </h1>
-        <div className="flex-shrink-1 me-4"></div>
+       
       </div>
       <div className="d-flex flex-row col-10 flex-wrap justify-content-center mt-5 pt-5">
         <div className="temoignage1 col-10 col-md-4 text-white mx-2 my-2 p-2 border border-2 border-black rounded-4 ">

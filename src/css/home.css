@@ -27,3 +27,20 @@
   max-width: 100%;
   height: auto;
  } 
+
+ @media(max-width:576px){
+  .nom{font-size: 22px;
+ }
+ .devweb{
+  font-size: 18px;
+ }
+
+ .arrow-container {
+visibility:hidden;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+}
+}
