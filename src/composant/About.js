@@ -103,10 +103,10 @@ function About() {
 					</table>
 				</div>
 				{/* Photo */}
-				<div className="photo m-3  border border-2 border-black rounded-circle object-fit-cover ">
+				<div className="photo m-3  border border-2 border-black rounded-circle ">
 					<img
 						src={`${process.env.PUBLIC_URL}/image/photojb.jpg`}
-						className="img-fluid w-100 h-auto"
+						className="img-fluid w-100 h-auto object-fit-cover"
 						alt="image de Jean-Baptiste"
 					/>
 				</div>
