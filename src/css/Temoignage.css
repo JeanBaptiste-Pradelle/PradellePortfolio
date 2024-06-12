@@ -13,6 +13,16 @@
 
 }
 
+.photohomme2{
+  width: 320px;
+  max-width: 100%;
+}
+
+.temoinTitre
+{
+  font-size: 80px;
+}
+
 @media (max-width: 576px) {
   .temoinSection {
     height: auto;
@@ -23,4 +33,20 @@
     width: 100%;
     margin: 0.5rem 0;
   }
+
+  .photohomme2{
+    width: 40%;
+        
+  }
+
+  .temoinTitre
+{
+  font-size: 32px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
 }
