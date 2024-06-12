@@ -26,25 +26,29 @@ function Realisation() {
         style={{ overflowY: "auto", maxHeight: "80vh" }}
       >
         <div className="projet1 d-flex col-10 border border-4 border-black rounded-4 py-auto px-auto mx-auto my-2">
-          <span
-            className="fs-5 col-7 mx-auto p-2 d-flex flex-column"
-          >
+          <span className="fs-5 col-7 mx-auto p-2 d-flex flex-column">
             <span className="fw-bold ">Myuka:</span>
             <br />
-            Réalisation d'un site web type yuka en utilisant l'API libre
-            d'openfactfood <br /> Technologie utilisé: React/Bootstrap /HTML
+            <span className="fs-2">
+              {" "}
+              Réalisation d'un site web type yuka en utilisant l'API libre
+              d'openfactfood
+            </span>
+            <br />{" "}
+            <span className="fs-2">
+              Technologie utilisé: React/Bootstrap /HTML
+            </span>
             5/CSS
             <span className="mt-5 mx-auto fs-3">
-            <a
-              href="https://jeanbaptiste-pradelle.github.io/myuka/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Myuka
-            </a>
+              <a
+                href="https://jeanbaptiste-pradelle.github.io/myuka/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Myuka
+              </a>
             </span>
           </span>
-        
 
           <img
             src={`${process.env.PUBLIC_URL}/image/myuka.jpg`}
