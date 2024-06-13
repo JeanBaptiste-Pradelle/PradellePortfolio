@@ -24,7 +24,7 @@ function Home() {
 
 				<img
 					src={`${process.env.PUBLIC_URL}/image/homme.jpg`}
-					className="photohomme img-fluid w-25 h-25 rounded opacity-75 mx-sm-auto me-5 mt-5"
+					className="photohomme img-fluid w-25 h-25 rounded opacity-75 mx-auto  mt-5"
 					alt="homme devant ordinateur"
 				/>
 			</div>
