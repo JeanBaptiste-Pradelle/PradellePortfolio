@@ -104,7 +104,7 @@ function About() {
           </table>
         </div>
         {/* Photo */}
-        <div className="photo">
+        <div className="photo mx-auto">
           <img
             src={`${process.env.PUBLIC_URL}/image/photojb.jpg`}
             className=" rounded-circle border border-1 border-black object-fit-cover w-50 h-auto"
