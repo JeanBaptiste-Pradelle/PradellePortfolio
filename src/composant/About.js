@@ -8,8 +8,11 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaGithub,
-} from "react-icons/fa";
+  FaPhp, 
+ } from "react-icons/fa";
+ import { BiLogoPostgresql } from "react-icons/bi";
 
+ 
 gsap.registerPlugin(Draggable);
 
 function About() {
@@ -99,6 +102,22 @@ function About() {
                   </p>
                 </th>
                 <td>À l'écoute</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <p>
+                  PostgresSQL <BiLogoPostgresql />
+                  </p>
+                </th>
+              
+              </tr>
+              <tr>
+                <th scope="row">
+                  <p>
+                  PHP <FaPhp />
+                  </p>
+                </th>
+              
               </tr>
             </tbody>
           </table>
